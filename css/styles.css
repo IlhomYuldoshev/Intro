@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/inter-v3-latin-regular.woff2') format('woff2'),
+        url('../fonts/inter-v3-latin-regular.woff') format('woff');
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/inter-v3-latin-500.woff2') format('woff2'),
+        url('../fonts/inter-v3-latin-500.woff') format('woff');
+}
+/* inter-600 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/inter-v3-latin-600.woff2') format('woff2'),
+        url('../fonts/inter-v3-latin-600.woff') format('woff');
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/inter-v3-latin-700.woff2') format('woff2'),
+        url('../fonts/inter-v3-latin-700.woff') format('woff');
+}
+:root{
+  --font-Inter: "Inter", "Arial", sans-serif;
+}
+/* GLOBAL */
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body{
+  height: 100%;
+  font-family: var(--font-Inter);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0;
+  margin: 0;
+}
+/* MAIN CONTENT */
+.main-content {
+  background-color: #F1F4FF;
+  display: flex;
+  align-items: center;
+}
+
+.main-inner {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.offer-block {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.offer-block-top {
+  flex-grow: 1;
+  padding: 55px 60px 203px 60px;
+  background-image: url(../img/intro-bg.jpg);
+  color:#fff;
+}
+
+.offer-block-info {
+  display: inline-block;
+  padding: 5px 15px;
+  font-family: var(--font-Inter);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 41px;
+  border: 1px solid #fff;
+  opacity: 0.8;
+  margin-bottom: 60px;
+}
+
+.offer-block-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  max-width: 390px;
+  width: 100%;
+  font-family: var(--font-Inter);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.offer-block-text {
+  max-width: 350px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.offer-block-link {
+  text-decoration: none;
+  text-align: center;
+  padding: 30px;
+  background-color: #4DC490;
+  color:#fff;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.offer-block-link:hover{
+  text-decoration: underline;
+}
+.try-it-text {
+  font-family: var(--font-Inter);
+  font-weight: 700;
+}
+/* FORM BLOCK  */
+.form-block {
+  width: 570px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 55px 60px 40px;
+}
+
+.form-heading{
+  max-width: 428px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: var(--font-Inter);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.input-fileds-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 63px;
+}
+
+.input-field {
+  border: none;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #555;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.input-field::placeholder{
+  font-family: var(--font-Inter);
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.input-field:not(:last-child){
+  margin-bottom: 35px;
+}
+.input-field:focus{
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.btn-form-submit {
+  border:none;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color:#fff;
+  background-color: #655AF2;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.btn-form-submit:hover{
+  opacity: 0.8;
+}
+.btn-form-submit:active{
+  background-color: #3A2BF8;
+}
+.submit-info {
+  font-family: var(--font-Inter);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.submit-info-link {
+  text-decoration: none;
+  font-weight: 500;
+  color:#f03535;
+}
+
+.submit-info-link:hover{
+  text-decoration: underline;
+}
