@@ -1,52 +1,52 @@
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/inter-v3-latin-regular.woff2') format('woff2'),
-        url('../fonts/inter-v3-latin-regular.woff') format('woff');
+  src: url("../fonts/inter-v3-latin-regular.woff2") format("woff2"),
+    url("../fonts/inter-v3-latin-regular.woff") format("woff");
 }
 /* inter-500 - latin */
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/inter-v3-latin-500.woff2') format('woff2'),
-        url('../fonts/inter-v3-latin-500.woff') format('woff');
+  src: url("../fonts/inter-v3-latin-500.woff2") format("woff2"),
+    url("../fonts/inter-v3-latin-500.woff") format("woff");
 }
 /* inter-600 - latin */
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('../fonts/inter-v3-latin-600.woff2') format('woff2'),
-        url('../fonts/inter-v3-latin-600.woff') format('woff');
+  src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),
+    url("../fonts/inter-v3-latin-600.woff") format("woff");
 }
 /* inter-700 - latin */
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../fonts/inter-v3-latin-700.woff2') format('woff2'),
-        url('../fonts/inter-v3-latin-700.woff') format('woff');
+  src: url("../fonts/inter-v3-latin-700.woff2") format("woff2"),
+    url("../fonts/inter-v3-latin-700.woff") format("woff");
 }
-:root{
+:root {
   --font-Inter: "Inter", "Arial", sans-serif;
 }
 /* GLOBAL */
-html{
+html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 *,
 *::after,
-*::before{
+*::before {
   box-sizing: inherit;
 }
-body{
+body {
   height: 100%;
   font-family: var(--font-Inter);
   font-weight: 400;
@@ -57,7 +57,7 @@ body{
 }
 /* MAIN CONTENT */
 .main-content {
-  background-color: #F1F4FF;
+  background-color: #f1f4ff;
   display: flex;
   align-items: center;
 }
@@ -83,7 +83,7 @@ body{
   flex-grow: 1;
   padding: 55px 60px 203px 60px;
   background-image: url(../img/intro-bg.jpg);
-  color:#fff;
+  color: #fff;
 }
 
 .offer-block-info {
@@ -120,15 +120,17 @@ body{
   text-decoration: none;
   text-align: center;
   padding: 30px;
-  background-color: #4DC490;
-  color:#fff;
+  background-color: #4dc490;
+  color: #fff;
   font-size: 19px;
   line-height: 23px;
   font-weight: 400;
 }
-.offer-block-link:hover{
+
+.offer-block-link:hover {
   text-decoration: underline;
 }
+
 .try-it-text {
   font-family: var(--font-Inter);
   font-weight: 700;
@@ -141,12 +143,9 @@ body{
   padding: 55px 60px 40px;
 }
 
-.form-heading{
-  max-width: 428px;
-  width: 100%;
+.form-heading {
   margin-top: 0;
   margin-bottom: 80px;
-  font-family: var(--font-Inter);
   font-weight: 600;
   font-size: 32px;
   line-height: 42px;
@@ -167,37 +166,37 @@ body{
   font-weight: 600;
 }
 
-.input-field::placeholder{
+.input-field::placeholder {
   font-family: var(--font-Inter);
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
 }
 
-.input-field:not(:last-child){
+.input-field:not(:last-child) {
   margin-bottom: 35px;
 }
-.input-field:focus{
+.input-field:focus {
   outline: none;
   border-bottom: 1px solid #000;
 }
 
 .btn-form-submit {
-  border:none;
+  border: none;
   width: 100%;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
-  color:#fff;
-  background-color: #655AF2;
+  color: #fff;
+  background-color: #655af2;
   cursor: url(../img/cursor.png), auto;
   margin-bottom: 8px;
 }
-.btn-form-submit:hover{
+.btn-form-submit:hover {
   opacity: 0.8;
 }
-.btn-form-submit:active{
-  background-color: #3A2BF8;
+.btn-form-submit:active {
+  background-color: #3a2bf8;
 }
 .submit-info {
   font-family: var(--font-Inter);
@@ -210,9 +209,9 @@ body{
 .submit-info-link {
   text-decoration: none;
   font-weight: 500;
-  color:#f03535;
+  color: #f03535;
 }
 
-.submit-info-link:hover{
+.submit-info-link:hover {
   text-decoration: underline;
 }
