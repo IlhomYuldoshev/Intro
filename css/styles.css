@@ -191,6 +191,7 @@ body {
   background-color: #655af2;
   cursor: url(../img/cursor.png), auto;
   margin-bottom: 8px;
+  font-weight: 600;
 }
 .btn-form-submit:hover {
   opacity: 0.8;
